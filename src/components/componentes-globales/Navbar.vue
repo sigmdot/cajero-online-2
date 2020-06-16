@@ -1,7 +1,7 @@
 
 <template>
   <div class="nav-bar-nav-egacion">
-    <b-navbar toggleable="lg" type="white" class="blanco">
+    <b-navbar toggleable="lg" type="white" class="blanco" fixed="top">
       <div class="left mr-auto">
         <button v-b-toggle.sidebar-menu type="button" class="btn btn-secondary">
           <b-icon icon="arrow-right-square-fill"></b-icon>
