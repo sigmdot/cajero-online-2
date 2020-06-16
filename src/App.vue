@@ -29,4 +29,10 @@ export default {
     display: none !important;
   }
 }
+ul{
+  list-style: none;
+}
+li{
+  list-style: none;
+}
 </style>

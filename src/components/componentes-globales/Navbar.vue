@@ -3,7 +3,7 @@
   <div class="nav-bar-nav-egacion">
     <b-navbar toggleable="lg" type="white" class="blanco">
       <div class="left mr-auto">
-        <button type="button" class="btn btn-secondary">
+        <button v-b-toggle.sidebar-menu type="button" class="btn btn-secondary">
           <b-icon icon="arrow-right-square-fill"></b-icon>
         </button>
       </div>
@@ -20,13 +20,20 @@
         </div>
       </div>
     </b-navbar>
+    <Sidebar></Sidebar>
   </div>
 </template>
 
 <script>
+import Sidebar from '../navbar-components/Sidebar.vue'
+
+
 export default {
+  
   name: "Navbar",
-  components: {},
+  components: {
+    Sidebar
+  },
   data: function() {
     return {
       Usuario:'Prueba_usuario'
@@ -36,12 +43,7 @@ export default {
 </script>
 
 <style>
-ul{
-  list-style: none;
-}
-li{
-  list-style: none;
-}
+
 .blanco {
   background-color: white;
 }
