@@ -3,7 +3,7 @@
     <div class="nav-user">
       <Navbar></Navbar>
     </div>
-    <div class="router-view-user mt-5 py-2 ">
+    <div class="router-view-user mt-5 py-3 ">
       <router-view />
     </div>
   </div>
