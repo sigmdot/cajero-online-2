@@ -1,5 +1,5 @@
 <template>
-  <div class="comparacionresumen col-12 col-sm-12 col-md-5 col-lg-3 row m-0 border mr-1 mb-3 justify-content-between p-0">
+  <div class="comparacionresumen col-12 col-sm-12 col-md-5 col-lg-3 row m-0 border mr-1 mb-3 justify-content-between p-0 bg-white">
     <div class="col-10 p-0 row m-0 border-right">
       <div class="col-12 p-0 text-center border-bottom">
         <h5>{{titulo}}</h5>
