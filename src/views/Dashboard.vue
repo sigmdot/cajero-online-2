@@ -12,6 +12,10 @@
               <ButtonBox class="mb-1"></ButtonBox>
               <TablasInventarioPersonal title="Productos más vendido esta semana"></TablasInventarioPersonal>
           </div>
+          <div class="col-lg-12 row m-0 is-hidden-mobile p-0 mt-1">
+              <ButtonBox class="mb-1"></ButtonBox>
+              <TablasInventarioPersonal title="Personal más activo de la semana"></TablasInventarioPersonal>
+          </div>
         
       </div>
     </div>
