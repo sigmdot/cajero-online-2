@@ -1,18 +1,21 @@
 <template>
   <div class="inventarioview">
     <div class="container-fluid">
-        <div class="row m-0">
-            
+        <div class="row m-0 justify-content-between">
+            <TarjetasItem v-for="(item,index) in itemList" :key="index" :item="item"></TarjetasItem>
+            <span></span>
         </div>
     </div>
   </div>
 </template>
 
 <script>
+import TarjetasItem from '@/components/componentes-inventario/TarjetasItem.vue'
+
 export default {
   name: "InventarioView",
   components: {
-      
+      TarjetasItem
   },
   data: function() {
     return {
