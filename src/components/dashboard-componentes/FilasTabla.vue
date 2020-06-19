@@ -29,7 +29,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .size-100 {
   height: 60%;
   width: 60%;

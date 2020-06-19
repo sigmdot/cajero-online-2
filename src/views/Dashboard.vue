@@ -3,9 +3,9 @@
     <div class="container-fluid">
       <div class="row m-0 justify-content-between">
         <h3 class="col-12">Comparación</h3>
-        <ComparacionResumen titulo="Venta mensual" diferencia="99.999" evaluacion="up"></ComparacionResumen>
-        <ComparacionResumen titulo="Venta Semanal" diferencia="99.999" evaluacion="down"></ComparacionResumen>
-        <ComparacionResumen titulo="Clientes hoy" diferencia="99.999" evaluacion="draw"></ComparacionResumen>
+        <ComparacionResumen titulo="Venta mensual" diferencia=99.999 evaluacion="up"></ComparacionResumen>
+        <ComparacionResumen titulo="Venta Semanal" diferencia=99.999 evaluacion="down"></ComparacionResumen>
+        <ComparacionResumen titulo="Clientes hoy" diferencia=99.999 evaluacion="draw"></ComparacionResumen>
       </div>
       <div class="row m-0">
           <div class="col-lg-12 row m-0 is-hidden-mobile p-0">
