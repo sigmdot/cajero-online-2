@@ -1,8 +1,8 @@
 <template>
-  <div class="tarjetasitem col-12 col-sm-12 col-md-4 col-lg-3 p-0 row m-0 border bg-white mx-1 my-1">
+  <div class="tarjetasitem col-12 col-sm-12 col-md-5 col-lg-3 p-0 row m-0 border bg-white mx-1 my-1">
     <div class="col-12 row p-0 m-0 border-bottom bg-light">
       <div class="col-4 p-0 ">
-        <!-- <img src="https://picsum.photos/200" class="img-size-sm mx-auto d-block" > -->
+        <img src="https://picsum.photos/200" class="img-size-sm mx-auto d-block img-thumbnail" >
       </div>
       <div class="col-8 row m-0 p-0 pr-2 ">
         <div class="col-12 p-0 text-right">
@@ -44,7 +44,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .img-size-sm{
   height:100px;
   width:170px;

@@ -2,20 +2,20 @@
   <div class="inventarioview">
     <div class="container-fluid">
         <div class="row m-0 justify-content-between">
-            <TarjetasItem v-for="(item,index) in itemList" :key="index" :item="item"></TarjetasItem>
-            <span></span>
+            <!-- <TarjetasItem v-for="(item,index) in itemList" :key="index" :item="item"></TarjetasItem> -->
+            
         </div>
     </div>
   </div>
 </template>
 
 <script>
-import TarjetasItem from '@/components/componentes-inventario/TarjetasItem.vue'
+/* import TarjetasItem from '@/components/componentes-inventario/TarjetasItem.vue' */
 
 export default {
   name: "InventarioView",
   components: {
-      TarjetasItem
+      /* TarjetasItem */
   },
   data: function() {
     return {
@@ -38,6 +38,20 @@ export default {
           cod: "192c",
           nombre: "Desodorante en barra huele bonito",
           dinero: 10000,
+          cantidad: 99,
+          imgUrl:''
+        },
+        {
+          cod: "192d",
+          nombre: "Helado Capri No capri , k es capri",
+          dinero: 8888,
+          cantidad: 99,
+          imgUrl:''
+        },
+        {
+          cod: "192d",
+          nombre: "Helado Capri No capri , k es capri",
+          dinero: 8888,
           cantidad: 99,
           imgUrl:''
         },
