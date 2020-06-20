@@ -1,7 +1,7 @@
 <template>
   <div class="login container">
       <div class="row m-0 justify-content-center">
-          <h5 class="col-12 text-center p-0">¡Bienvenido denuevo!</h5>
+          <h3 class="col-12 text-center p-0">¡Bienvenido denuevo!</h3>
           <FormularioLogin></FormularioLogin>
       </div>
   </div>
