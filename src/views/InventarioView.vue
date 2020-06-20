@@ -4,7 +4,7 @@
       <div class="row m-0 p-3 border bg-white">
         <FiltroListaInventario></FiltroListaInventario>
       </div>
-      <div class="row m-0 mt-2">
+      <div class="row m-0 mt-2 is-hidden-mobile">
          <ListaInventario v-for="(item,index) in itemList" :key="index" v-bind:producto="item"></ListaInventario>
       </div>
     </div>
