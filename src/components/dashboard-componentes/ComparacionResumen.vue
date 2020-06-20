@@ -10,9 +10,9 @@
     </div>
     <div class="col-2 p-0">
  
-        <img v-if="evaluacion==='up'" class="img-size-100" src="https://i.imgur.com/IjKBRmO.gif?noredirect">
-        <img v-if="evaluacion==='draw'" class="img-size-100 minimo" src="http://cdn.lowgif.com/full/c7742e716533a2cb-gif-of-3-dots-4-gif-images-download.gif">
-        <img v-if="evaluacion==='down'" class="img-size-100 rotate-180" src="https://i.imgur.com/IjKBRmO.gif?noredirect">
+        <img v-if="evaluacion==='up'" class="img-size-100 maximo" src="https://i.imgur.com/IjKBRmO.gif?noredirect">
+        <img v-if="evaluacion==='draw'" class="img-size-100 maximo" src="http://cdn.lowgif.com/full/c7742e716533a2cb-gif-of-3-dots-4-gif-images-download.gif">
+        <img v-if="evaluacion==='down'" class="img-size-100 rotate-180 maximo" src="https://i.imgur.com/IjKBRmO.gif?noredirect">
 
 
 
@@ -47,7 +47,8 @@ export default {
 .rotate-180{
   transform: rotate(180deg);
 }
-.minimo{
-  min-height:170.56px ;
+.maximo{
+  max-height:57px ;
+  max-width: 100%;
 }
 </style>
