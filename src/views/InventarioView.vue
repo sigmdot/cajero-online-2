@@ -7,6 +7,11 @@
       <div class="row m-0 mt-2 is-hidden-mobile">
          <ListaInventario v-for="(item,index) in itemList" :key="index" v-bind:producto="item"></ListaInventario>
       </div>
+      <div class="row m-0 mt-2 p-3 is-hidden-pc justify-content-between bg-white border">
+        <CardMobile></CardMobile>
+        <CardMobile></CardMobile>
+        <CardMobile></CardMobile>
+      </div>
     </div>
   </div>
 </template>
@@ -14,12 +19,14 @@
 <script>
 import FiltroListaInventario from '@/components/componentes-inventario/FiltroListaInventario.vue'
 import ListaInventario from '@/components/componentes-inventario/ListaInventario.vue'
+import CardMobile from '@/components/componentes-inventario/CardMobile.vue'
 
 export default {
   name: "InventarioView",
   components: {
       FiltroListaInventario,
-      ListaInventario
+      ListaInventario,
+      CardMobile
   },
   data: function() {
     return {
