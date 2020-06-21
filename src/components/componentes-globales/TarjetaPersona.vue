@@ -1,6 +1,6 @@
 <template>
-    <div class="tarjetapersona col-lg-3">
-
+    <div class="tarjetapersona col-lg-3 border">
+        jajaj
     </div>
 </template>
 
@@ -12,7 +12,7 @@ export default {
     },
     data:function(){
         return{
-            
+
         }
     }
 }
