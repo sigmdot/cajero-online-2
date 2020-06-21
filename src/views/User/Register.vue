@@ -1,6 +1,8 @@
 <template>
-    <div class="registerview">
-
+    <div class="registerview container">
+        <div class="row m-0">
+            
+        </div>
     </div>
 </template>
 
