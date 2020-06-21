@@ -14,6 +14,13 @@ export default {
     name:'Login',
     components:{
         FormularioLogin
+    },
+    beforeCreate:function(){
+      document.body.className = 'login';
+    },
+    destroyed:function(){
+      document.body.className = 'bg-light';
+
     }
 }
 </script>
