@@ -8,7 +8,7 @@
         </button>
       </div>
       <div class="right ml-auto">
-        <div class="user-nav">
+        <div class="user-nav" v-if="Usuario">
           <b-nav-item-dropdown :text="Usuario" right>
             <b-dropdown-item fixed="top">
               <b-icon icon="person-circle"></b-icon>Perfil
@@ -36,7 +36,7 @@ export default {
   },
   data: function() {
     return {
-      Usuario:'Prueba_usuario'
+      Usuario:null
     };
   }
 };
