@@ -18,6 +18,13 @@ export default {
         return{
             
         }
+    },
+    beforeCreate:function(){
+      document.body.className = 'register';
+    },
+    destroyed:function(){
+      document.body.className = 'bg-light';
+
     }
 }
 </script>

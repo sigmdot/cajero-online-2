@@ -26,16 +26,4 @@ export default {
 </script>
 
 <style>
-.bg {
-  /* The image used */
-  background-image: url("https://i.ibb.co/f1MFtSp/minimalist.jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <form class="bg-white rounded border p-3">
+  <form class="fondo-blanco rounded border p-3 shadow col-12 p-5 col-md-6 shadow">
     <div class="form-group">
       <label for="exampleInputEmail1">Tipo de negocio</label>
       <select class="custom-select">
@@ -44,4 +44,7 @@ export default {
 </script>
 
 <style>
+.fondo-blanco{
+    background-color: rgba(255, 255,255, 0.7);
+}
 </style>

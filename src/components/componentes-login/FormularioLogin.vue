@@ -1,5 +1,5 @@
 <template>
-  <form class="formulariologin col-12 col-md-6 p-0 bg-white p-5 rounded border shadow">
+  <form class="formulariologin col-12 col-md-6 p-0 fondo-blanco p-5 rounded border shadow">
     <div class="form-group">
       <label for="formGroupExampleInput">
         <strong>Correo:</strong>
