@@ -20,10 +20,10 @@
         </div>
         <div v-else class="botonesUser row p-0 m-0 w-100 justify-content-between px-3">
           <div class="col-5 p-0">
-            <button type="button" class="btn btn-outline-primary">Login</button>
+            <button type="button" class="btn btn-outline-primary" @click="goToLogin()">Login</button>
           </div>
           <div class="col-5 p-0">
-            <button type="button" class="btn btn-outline-secondary">Register</button>
+            <button type="button" class="btn btn-outline-secondary" @click="goToRegister()">Register</button>
           </div>
         </div>
       </div>
@@ -44,8 +44,16 @@ export default {
   },
   data: function() {
     return {
-      Usuario:"Sigmdot"
+      Usuario:'Sigmdot'
     };
+  },
+  methods:{
+    goToLogin(){
+      this.$router.push({name:'Login'});
+    },
+    goToRegister(){
+      this.$router.push({name:'Register'});    
+    }
   }
 };
 </script>
