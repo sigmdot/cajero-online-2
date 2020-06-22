@@ -1,9 +1,14 @@
 <template>
     <div class="clienteview container-fluid">
-        <div class="row m-0 justify-content-between">
+        <div class="row m-0">
             <TarjetaPersona></TarjetaPersona>
             <TarjetaPersona></TarjetaPersona>
             <TarjetaPersona></TarjetaPersona>
+            <TarjetaPersona></TarjetaPersona>
+            <TarjetaPersona></TarjetaPersona>
+            <TarjetaPersona></TarjetaPersona>
+
+
         </div>
     </div>
 </template>
