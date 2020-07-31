@@ -5,6 +5,7 @@ import Dashboard from '../views/Dashboard.vue'
 import InventarioView from '../views/InventarioView.vue'
 import Login from '../views/User/Login.vue'
 import Register from '../views/User/Register.vue'
+import ClienteView from '../views/Cliente.vue'
 
 Vue.use(VueRouter)
 
@@ -23,6 +24,11 @@ Vue.use(VueRouter)
     path:'/inventario',
     name:'Inventario',
     component: InventarioView
+  },
+  {
+    path:'/clientes',
+    name:'Clientes',
+    component: ClienteView
   },
   {
     path:'/login',
