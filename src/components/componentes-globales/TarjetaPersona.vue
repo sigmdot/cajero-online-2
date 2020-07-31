@@ -1,8 +1,8 @@
 <template>
     <div class="tarjetapersona col-12 col-sm-12 col-md-6 col-lg-4 border p-3 row m-0 justify-content-center">
-        <div class="col-6 p-2 row m-0 border text-wrap bg-white h-100">
+        <div class="col-9 p-2 row m-0 border text-wrap bg-white h-100">
             <div class="col-12 p-0 row m-0 justify-content-center border">
-                <b-avatar variant="primary" src="https://picsum.photos/200" class=""></b-avatar>
+                <b-avatar size="70px" variant="primary" src="https://picsum.photos/200" class=""></b-avatar>
             </div>
             <div class="col-12 p-0 row m-0 py-2 border">
                 <div class="col col-lg p-0 row m-0 justify-content-center border">
