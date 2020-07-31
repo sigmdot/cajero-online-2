@@ -1,32 +1,38 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <div class="nav-user">
+      <Navbar></Navbar>
     </div>
-    <router-view/>
+    <div class="router-view-user mt-5 py-3 ">
+      <router-view />
+    </div>
   </div>
 </template>
 
+<script>
+import Navbar from '@/components/componentes-globales/Navbar.vue'
+export default {
+  components:{
+    Navbar
+  }
+}
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+@media (min-width: 992px){
+  .is-hidden-pc{
+    display: none !important;
+  }
 }
-
-#nav {
-  padding: 30px;
+@media (max-width: 991px){
+  .is-hidden-mobile{
+    display: none !important;
+  }
 }
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+ul{
+  list-style: none;
 }
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+li{
+  list-style: none;
 }
 </style>
